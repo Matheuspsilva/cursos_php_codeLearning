@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Formulário HTML</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+        <h1 style="text-align: center">Formulário HTML</h1>
+        <hr>
+            <form  action="#" method="get">
+                    <div class="form-group">
+                            <label>Nome </label>
+                            <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-row">
+                            <div class="form-group col-md-8">
+                                    <label>Email </label>
+                                    <input class="form-control" type="email" class="email" placeholder="Digite seu email">
+                                </div>
+            
+                                <div class="form-group col-md-4">
+                                    <label>Senha </label>
+                                    <input class="form-control" type="password" name="senha" placeholder="Digite sua senha">
+                                </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                                <label >Data de Nascimento</label>
+                                <input type="date" class="form-control" name="d_nascimento">
+                        </div>
+                        <div class="form-group col-md-6">
+                                <label >Idade</label>
+                                <input type="number" class="form-control" name="idade">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Range</label>
+                        <input type="range" class="form-control-range" max="10" name="range">
+                    </div>
+
+                    <div class="form-group">
+                        <label>URL</label>
+                        <input type="url" class="form-control" name="site_favorito">
+                    </div>
+
+                    <div class="form-group" >
+                        <label>Sexo</label>
+                        <input  " type="radio" name="sexo" value="M">Masc
+                        <input  " type="radio" name="sexo" value="F">Fem
+                    </div>
+
+                    <div class="form-group">
+                        <label>Tem necessidades especiais</label>
+                        <input type="checkbox" name="tem_necessidades_especiais">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Sua Cidade</label>
+                        <select class="form-control" name="sua_cidade" id="">
+                                <option value="slz">São Luís</option>
+                                <option value="itz">Imperatriz</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                            <label>Sua série favorita</label>
+                            <select class="form-control" name="series_favoritas" multiple id="">
+                                    <option value="teste">Teste</option>
+                                    <option value="teste2">Teste2</option>
+                            </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Fale sobre você</label>
+                        <textarea name="sobre_vc" ></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Envia sua Foto</label>
+                        <input class="form-control" type="file" name="sua_foto">
+
+                    </div>
+
+
+
+                    <div class="form-group">
+                            <button class="btn btn-primary" type="submit" >Enviar</button>
+                    </div>
+            </form>
+        </div>
+    </body>
+</html>
